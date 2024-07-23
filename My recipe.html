@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipes</title>
+    <link rel="stylesheet" href="styley.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo">
+         <img src="images/download.png" alt="">
+        </div>
+        <h1>Recipe Shearing</h1>
+        <nav>
+         <ul>
+             <li><a href="C:\Users\City Computer\Documents\New folder\dashboard.html"><img src="images/dashboard.png" alt="">      Dashboard</a><br>__________________________</li>
+             <li><a href="#"><img src="images/discover.png" alt="">      Discover</a><br>__________________________</li>
+             <li><a href=""><img src="images/recipe.png" alt="">      My Recipe</a><br>__________________________</li>
+             <li><a href="C:\Users\City Computer\Documents\New folder\create-recipe.html"><img src="images/create.png" alt="">      Create Recipe</a><br>__________________________</li>
+             <li><a href="#"><img src="images/profile.png" alt="">      View Profile</a><br>__________________________</li>
+             <li><a href="#"><img src="images/category.jfif" alt="">      Categories</a><br>__________________________</li>
+             <li id="signOutButton"><a href="#"><img src="images/logout.png" alt="">      SignOut</a></li>
+         </ul>
+        </nav>
+     </aside>
+    <div class="main-content">
+        <div class="header">
+            <h1>My Recipes
+                <img src="images/bell icon.png" alt="">
+            </h1>
+        </div>
+        <div class="tab-menu">
+            <div class="tab active" data-target="uploaded">Uploaded</div>
+            <div class="tab" data-target="saved">Saved Recipes</div>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="What are you cooking today?">
+            <button>Search</button>
+        </div>
+        <div class="recipes-content" id="uploaded">
+            <div class="recipes-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Status</th>
+                            <th>Analytics</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Half Chicken Biryani</td>
+                            <td><input type="checkbox" checked></td>
+                            <td>
+                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-trash"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Half Chicken Biryani</td>
+                            <td><input type="checkbox" checked></td>
+                            <td>
+                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-trash"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Half Chicken Biryani</td>
+                            <td><input type="checkbox" checked></td>
+                            <td>
+                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-trash"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Half Chicken Biryani</td>
+                            <td><input type="checkbox" checked></td>
+                            <td>
+                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-trash"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Half Chicken Biryani</td>
+                            <td><input type="checkbox" checked></td>
+                            <td>
+                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-trash"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Half Chicken Biryani</td>
+                            <td><input type="checkbox" checked></td>
+                            <td>
+                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-trash"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Half Chicken Biryani</td>
+                            <td><input type="checkbox" checked></td>
+                            <td>
+                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-trash"></i>
+                            </td>
+                        </tr>
+                        <!-- Repeat <tr> for more recipes -->
+                    </tbody>
+                    
+                </table>
+            </div>
+        </div>
+        <div class="recipes-content" id="saved" style="display: none;">
+            <p>No saved recipes yet.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Recipe</title>
+    <link rel="stylesheet" href="create.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo">
+         <img src="images/download.png" alt="">
+        </div>
+        <h1>Recipe Shearing</h1>
+        <nav>
+         <ul>
+             <li><a href="C:\Users\City Computer\Documents\New folder\dashboard.html"><img src="images/dashboard.png" alt="">      Dashboard</a><br>__________________________</li>
+             <li><a href="#"><img src="images/discover.png" alt="">      Discover</a><br>__________________________</li>
+             <li><a href="C:\Users\City Computer\Documents\New folder\My recipe.html"><img src="images/recipe.png" alt="">      My Recipe</a><br>__________________________</li>
+             <li><a href="#"><img src="images/create.png" alt="">      Create Recipe</a><br>__________________________</li>
+             <li><a href="#"><img src="images/profile.png" alt="">      View Profile</a><br>__________________________</li>
+             <li><a href="#"><img src="images/category.jfif" alt="">      Categories</a><br>__________________________</li>
+             <li id="signOutButton"><a href="#"><img src="images/logout.png" alt="">      SignOut</a></li>
+         </ul>
+        </nav>
+     </aside>
+    <div class="main-content">
+        <div class="text">
+            <h1>Create New Recipe</h1>
+            <img src="images/bell icon.png" alt="">
+        </div>
+        <form id="recipe-form">
+            <div class="z">
+            <div class="x">
+            <div class="form-group">
+                <label for="recipe-name">Recipe Name</label>
+                <input type="text" id="recipe-name" name="recipe-name" placeholder="Enter name of your recipe">
+            </div>
+            <div class="form-group">
+                <label for="category">Categories</label>
+                <select id="category" name="category">
+                    <option value="">Select Category</option>
+                    <!-- Add more categories as needed -->
+                </select>
+            </div>
+            <div class="form-group ingredients">
+                <label>Ingredients</label>
+                <div class="ingredient-inputs">
+                    <input type="text" name="ingredient" placeholder="Enter an ingredient">
+                    <input type="text" name="quantity" placeholder="Quantity">
+                </div>
+                <button type="button" id="add-ingredient">+ Add new ingredients</button>
+            </div>
+        </div>
+        <div class="y">
+            <div class="form-groups">
+                <label for="upload-image">Upload Image</label>
+                <input type="file" id="upload-image" name="upload-image" multiple>
+                <p>(You can upload up to 5 images)</p>
+            </div>
+            <div class="form-group">
+                <label for="estimated-time">Estimated Time</label>
+                <input type="text" id="estimated-time" name="estimated-time" placeholder="Enter estimated time of your recipe">
+            </div>
+            </div>
+        </div>
+            <div class="form-group-instruction">
+                <label for="instructions">How-to</label>
+                <textarea id="instructions" name="instructions" placeholder="Enter instructions"></textarea>
+            </div>
+            
+            <button type="submit">Create</button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

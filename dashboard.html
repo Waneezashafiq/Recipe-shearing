@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+           <div class="logo">
+            <img src="images/download.png" alt="">
+           </div>
+           <h1>Recipe Shearing</h1>
+           <nav>
+            <ul>
+                <li><a href="#"><img src="images/dashboard.png" alt="">      Dashboard</a><br>__________________________</li>
+                <li><a href="#"><img src="images/discover.png" alt="">      Discover</a><br>__________________________</li>
+                <li><a href="C:\Users\City Computer\Documents\New folder\My recipe.html"><img src="images/recipe.png" alt="">      My Recipe</a><br>__________________________</li>
+                <li><a href="#"><img src="images/create.png" alt="">      Create Recipe</a><br>__________________________</li>
+                <li><a href="#"><img src="images/profile.png" alt="">      View Profile</a><br>__________________________</li>
+                <li><a href="#"><img src="images/category.jfif" alt="">      Categories</a><br>__________________________</li>
+                <li id="signOutButton"><a href="#"><img src="images/logout.png" alt="">      SignOut</a></li>
+            </ul>
+           </nav>
+        </aside>
+       <main class="main-content">
+        <div class="text">
+               <h2>Hello Cindy! Welcome to recipe shearing
+               <img src="images/bell icon.png" alt=""></h2>
+        </div>
+        <div class="img-txt">
+           <div class="image">
+             <img src="images/spaghetti.jfif" alt="">
+           </div>
+           <div class="latest-recipe">
+                 <p>Latest Recipe</p>
+           </div>
+           <div class="save">
+                <img src="images/save.png" alt="">
+           </div>
+        </div>
+            <div class="pasta">
+                  <div class="p1"> <h3>pasta priservation<br> 21 May 2024 40 minutes  </h3></div> 
+                   <div class="p2">
+                        <p>Chines</p>
+                   </div>
+            </div>
+            <div class="recipe-categories">
+                        <div class="categories">
+                            <div class="category">
+                                <img src="images/breakfast.png" alt=""><p>Breakfast</p> </div>
+                            <div class="category">
+                                <img src="images/lunch.jfif" alt=""><p>Lunch</p> </div>
+                            <div class="category">
+                                <img src="images/download.png" alt=""><p>Dinner</p> </div>
+                            <div class="category">
+                                <img src="images/deserts.png" alt=""><p>Dessert</p></div>
+                            <div class="category">
+                                <img src="images/junk.png" alt=""><p>Junk</p></div>
+                            <div class="category">
+                                <img src="images/chines.jfif" alt=""><p>Chinese</p></div>
+                            <div class="category">
+                                <img src="images/drink.jfif" alt=""><p>Drinks</p></div>
+                            <div class="category">
+                                <img src="images/meat 1.jfif" alt=""><p>Meat</p></div>
+                        </div>
+                        <div class="text">
+                              <h2> Breakfast & Lunch Recipes</h2>
+                        </div>
+                        <div class="recipes">
+                            <div class="recipe">
+                                <img src="images/scrambled egg.jfif" alt="Scrambled Egg">
+                                <p>Scrambled Egg</p>
+                            </div>
+                            <div class="recipe">
+                                <img src="images/cheese sandwich.jfif" alt="Cheese Sandwich">
+                                <p>Cheese Sandwich</p>
+                            </div>
+                            <div class="recipe">
+                                <img src="images/garlic pasta.jfif" alt="Pasta with Garlic">
+                                <p>Pasta with Garlic</p>
+                            </div>
+                            <div class="recipe">
+                                <img src="images/spaghetti.jfif" alt="Special Spaghetti">
+                                <p>Special Spaghetti</p>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h2> Chines Food Recipes</h2>
+                      </div>
+                      <div class="recipes">
+                          <div class="recipe">
+                              <img src="images/nasi goreng.jfif" alt="Scrambled Egg">
+                              <p>Nasi Goreng</p>
+                          </div>
+                          <div class="recipe">
+                              <img src="images/coto makassar.jfif" alt="Cheese Sandwich">
+                              <p>Coto Makassar</p>
+                          </div>
+                          <div class="recipe">
+                              <img src="images/ayam betutu.jfif" alt="Pasta with Garlic">
+                              <p>Ayam Betutu</p>
+                          </div>
+                          <div class="recipe">
+                              <img src="images/kung pao chicken.jfif" alt="Special Spaghetti">
+                              <p>Kung Pao Chicken</p>
+                          </div>
+                      </div>
+            </div>
+    </main>
+    </div>
+    <div id="overlay" class="overlay hidden">
+        <div class="dialog">
+            <h2>Sign Out ?</h2>
+            <p>Are you sure you want to sign out?</p>
+            <button id="cancelButton" class="button cancel">Cancel</button>
+            <button id="confirmButton" class="button confirm">Sign out</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
